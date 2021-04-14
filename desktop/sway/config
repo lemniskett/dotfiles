@@ -24,7 +24,7 @@ set $menu exec ~/.config/waybar/scripts/wofi.sh
 set $wob /tmp/swaytmp/wobpipe
 # Status Bar
 
-#bar {
+bar {
 #    position top
 #    font "JetBrainsMono Nerd Font Mono 10"
 #    status_command while ~/.config/sway/scripts/sway_bar.sh; do sleep 1; done
@@ -38,7 +38,8 @@ set $wob /tmp/swaytmp/wobpipe
 #        active_workspace #f0732d #f0732d #222322
 #	    urgent_workspace #eb709b #eb709b #222322
 #    }
-#}
+     swaybar_command waybar
+}
 
 font pango:Iosevka Nerd Font Bold 9
 
@@ -119,9 +120,9 @@ input "1267:12448:ELAN0708:00_04F3:30A0_Touchpad" {
     # This is for setting brightness
     bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym XF86MonBrightnessUp exec brightnessctl set 5%+
-    bindsym XF86AudioMute exec pulsemixer --toggle-mute && echo 0 > $wob
-    bindsym XF86AudioLowerVolume exec pulsemixer --change-volume -5
-    bindsym XF86AudioRaiseVolume exec pulsemixer --change-volume +5
+    bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+    bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+    bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
     bindsym XF86Display exec wdisplays
 
     # Reload the configuration file

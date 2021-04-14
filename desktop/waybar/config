@@ -1,8 +1,8 @@
 {
     "layer": "top",
     "position": "bottom",
-    "height": 22,
-    "modules-left": ["clock", "custom/assistant"],
+    "height": 30,
+    "modules-left": ["clock"],
     "modules-center": ["sway/workspaces"],
     "modules-right": ["tray", "idle_inhibitor", "cpu", "custom/ping", "network", "pulseaudio", "battery", "custom/powermenu"],
     "sway/window": {

@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-grim -t png -c ~/.cache/lockscreen.png && blur_image -d /dev/dri/renderD128 \
-    -p 6 -r 6 ~/.cache/lockscreen.png -o ~/.cache/lockscreen-blur.png
-swaylock -f -i ~/.cache/lockscreen-blur.png --indicator-idle-visible \
+exec swaylock -f -i  ~/.config/sway/images/wallpaper.png --indicator-idle-visible \
     --disable-caps-lock-text --font Cantarell --font-size 1 --inside-color \
     00000000 --text-color 00000000 --text-ver-color 00000000 \
     --text-wrong-color 00000000 --inside-ver-color 00000000 \

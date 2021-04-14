@@ -17,8 +17,8 @@ window#waybar {
 }
 
 #workspaces button {
-  margin: 0 3px 3px 0;
-  padding: 2px 0 1px 0;
+  margin: 0 3px 8px 0;
+  padding: 2.5px 0.5px 1px 0.5px;
   color: #a3be8c;
   background-color: #404757;
   transition-duration: 0;
@@ -43,10 +43,10 @@ window#waybar {
 
 #custom-powermenu {
   background: #bf616a;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   color: #404757;
   margin-left: 0px;
-  margin-right: 3px;
+  margin-right: 8px;
   padding: 1px 10px 0 5px;
   font-family: "Iosevka Nerd Font";
   border-radius: 2px;
@@ -54,7 +54,7 @@ window#waybar {
 
 #custom-assistant {
   background-color: #404757;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   margin-left: 3px;
   color: #eceff4;
   margin-left: 3px;
@@ -66,7 +66,7 @@ window#waybar {
 
 #tray {
   background: #404757;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   margin-left: 3px;
   color: white;
   margin-right: 0;
@@ -79,7 +79,7 @@ window#waybar {
 
 #cpu {
   background: #404757;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   color: #eceff4;
   margin-right: 3px;
   padding: 1px 10px 0 6px;
@@ -89,7 +89,7 @@ window#waybar {
 
 #pulseaudio {
   background: #81a1c1;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   margin-left: 3px;
   color: #404757;
   margin-left: 0px;
@@ -102,10 +102,9 @@ window#waybar {
 
 #clock {
   background: #ebcb8b;
-  margin-bottom: 3px;
-  margin-left: 3px;
+  margin-bottom: 8px;
   color: #404757;
-  margin-left: 3px;
+  margin-left: 8px;
   margin-right: 0px;
   padding: 1px 6px 0 6px;
   font-weight: bold;
@@ -114,7 +113,7 @@ window#waybar {
 
 #network {
   background: #8fbcbb;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   margin-left: 3px;
   color: #404757;
   margin-left: 0px;
@@ -127,7 +126,7 @@ window#waybar {
 
 #custom-ping {
   background: #404757;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   margin-left: 3px;
   color: #eceff4;
   margin-left: 0px;
@@ -139,7 +138,7 @@ window#waybar {
 
 #idle_inhibitor {
   background: #404757;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   margin-left: 3px;
   color: #eceff4;
   margin-left: 0px;
@@ -155,7 +154,7 @@ window#waybar {
 
 #battery {
   background: #b48ead;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
   margin-left: 3px;
   color: #404757;
   margin-left: 0px;
