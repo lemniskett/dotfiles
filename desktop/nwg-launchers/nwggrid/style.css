@@ -2,7 +2,7 @@ button, label, image {
     background: none;
     border-style: none;
     box-shadow: none;
-    color: #d8dee9;
+    color: #f9f9f9;
 }
 
 button {
@@ -11,14 +11,14 @@ button {
 }
 
 button:focus {
-    background-color: #404757;
+    background-color: #5294e2;
 }
 
 #searchbox {
-    background-color: #404757;
+    background-color: #3f424e;
     border: none;
     border-radius: 20px;
-    color: #d8dee9;
+    color: #f9f9f9;
     margin-top: 40px;
     margin-bottom: 10px;
 }

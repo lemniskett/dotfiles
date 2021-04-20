@@ -69,7 +69,7 @@
 	"on-click": "footclient htop"
     },
     "custom/powermenu": {
-        "on-click": "nwgbar -b 2e3440ff",
+        "on-click": "nwgbar -b 32343dff",
         "format": "⏻",
         "tooltip": false
     },

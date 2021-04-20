@@ -18,9 +18,9 @@ window#waybar {
 */
 #workspaces button {
   margin: 0 3px 8px 0;
-  padding: 2.5px 0.5px 1px 0.5px;
-  color: #a3be8c;
-  background-color: #404757;
+  padding: 2.5px 1.5px 1px 1.5px;
+  color: #52e27a;
+  background-color: #3f424e;
   transition-duration: 0;
   font-weight: bold;
   font-family: "Iosevka Nerd Font";
@@ -28,35 +28,35 @@ window#waybar {
 }
 
 #workspaces button.focused {
-  background-color: #a3be8c;
-  color: #404757;
+  background-color: #52e27a;
+  color: #3f424e;
   font-weight: bold;
   transition-duration: 0;
 }
 
 #workspaces button.persistent {
-  background: #404757;
-  color: #eceff4;
+  background: #3f424e;
+  color: #f9f9f9;
   font-weight: normal;
   transition-duration: 0;
 }
 
 #custom-powermenu {
-  background: #bf616a;
+  background: #e25252;
   margin-bottom: 8px;
-  color: #404757;
+  color: #3f424e;
   margin-left: 0px;
   margin-right: 8px;
-  padding: 1px 10px 0 5px;
+  padding: 1px 6px 0 5px;
   font-family: "Iosevka Nerd Font";
   border-radius: 2px;
 }
 
 #custom-assistant {
-  background-color: #404757;
+  background-color: #3f424e;
   margin-bottom: 8px;
   margin-left: 3px;
-  color: #eceff4;
+  color: #f9f9f9;
   margin-left: 3px;
   margin-right: 0px;
   padding: 1px 6px 0 6px;
@@ -65,7 +65,7 @@ window#waybar {
 }
 
 #tray {
-  background: #404757;
+  background: #3f424e;
   margin-bottom: 8px;
   margin-left: 3px;
   color: white;
@@ -78,20 +78,20 @@ window#waybar {
 }
 
 #cpu {
-  background: #404757;
+  background: #3f424e;
   margin-bottom: 8px;
-  color: #eceff4;
+  color: #f9f9f9;
   margin-right: 3px;
-  padding: 1px 10px 0 6px;
+  padding: 1px 6px 0 6px;
   font-family: "Iosevka Nerd Font";
   border-radius: 2px;
 }
 
 #pulseaudio {
-  background: #81a1c1;
+  background: #5294e2;
   margin-bottom: 8px;
   margin-left: 3px;
-  color: #404757;
+  color: #3f424e;
   margin-left: 0px;
   margin-right: 0px;
   padding: 1px 12px 0 6px;
@@ -101,9 +101,9 @@ window#waybar {
 }
 
 #clock {
-  background: #ebcb8b;
+  background: #e2ca52;
   margin-bottom: 8px;
-  color: #404757;
+  color: #3f424e;
   margin-left: 8px;
   margin-right: 0px;
   padding: 1px 6px 0 6px;
@@ -112,10 +112,10 @@ window#waybar {
 }
 
 #network {
-  background: #8fbcbb;
+  background: #52e2cc;
   margin-bottom: 8px;
   margin-left: 3px;
-  color: #404757;
+  color: #3f424e;
   margin-left: 0px;
   margin-right: 0px;
   padding: 1px 14px 0 6px;
@@ -125,38 +125,38 @@ window#waybar {
 }
 
 #custom-ping {
-  background: #404757;
+  background: #3f424e;
   margin-bottom: 8px;
   margin-left: 3px;
-  color: #eceff4;
+  color: #f9f9f9;
   margin-left: 0px;
   margin-right: 3px;
-  padding: 1px 10px 0 6px;
+  padding: 1px 6px 0 6px;
   font-family: "Iosevka Nerd Font";
   border-radius: 2px;
 }
 
 #idle_inhibitor {
-  background: #404757;
+  background: #3f424e;
   margin-bottom: 8px;
   margin-left: 3px;
-  color: #eceff4;
+  color: #f9f9f9;
   margin-left: 0px;
   margin-right: 3px;
-  padding: 1px 12px 0 4px;
+  padding: 1px 4px 0 4px;
   font-family: "Iosevka Nerd Font";
   border-radius: 0 2px 2px 0;
 }
 
 #idle_inhibitor.activated {
-  color: #a3be8c;
+  color: #52e27a;
 }
 
 #battery {
-  background: #b48ead;
+  background: #cb52e2;
   margin-bottom: 8px;
   margin-left: 3px;
-  color: #404757;
+  color: #3f424e;
   margin-left: 0px;
   margin-right: 3px;
   padding: 1px 8px 0 6px;

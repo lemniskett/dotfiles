@@ -6,7 +6,7 @@ button, image {
     background: none;
     border-style: none;
     box-shadow: none;
-    color: #d8dee9;
+    color: #f9f9f9;
 }
 
 button {
@@ -16,7 +16,7 @@ button {
 }
 
 button:focus {
-    background-color: #404757;
+    background-color: #5294e2;
 }
 
 grid {
