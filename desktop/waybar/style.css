@@ -19,7 +19,7 @@ window#waybar {
 #workspaces button {
   margin: 0 3px 8px 0;
   padding: 2.5px 1.5px 1px 1.5px;
-  color: #52e27a;
+  color: #5294e2;
   background-color: #3f424e;
   transition-duration: 0;
   font-weight: bold;
@@ -28,8 +28,8 @@ window#waybar {
 }
 
 #workspaces button.focused {
-  background-color: #52e27a;
-  color: #3f424e;
+  background-color: #5294e2;
+  color: #ffffff;
   font-weight: bold;
   transition-duration: 0;
 }
@@ -44,7 +44,7 @@ window#waybar {
 #custom-powermenu {
   background: #e25252;
   margin-bottom: 8px;
-  color: #3f424e;
+  color: #ffffff;
   margin-left: 0px;
   margin-right: 8px;
   padding: 1px 6px 0 5px;
@@ -91,7 +91,7 @@ window#waybar {
   background: #5294e2;
   margin-bottom: 8px;
   margin-left: 3px;
-  color: #3f424e;
+  color: #ffffff;
   margin-left: 0px;
   margin-right: 0px;
   padding: 1px 12px 0 6px;
@@ -101,9 +101,9 @@ window#waybar {
 }
 
 #clock {
-  background: #e2ca52;
+  background: #5294e2;
   margin-bottom: 8px;
-  color: #3f424e;
+  color: #ffffff;
   margin-left: 8px;
   margin-right: 0px;
   padding: 1px 6px 0 6px;
@@ -112,10 +112,10 @@ window#waybar {
 }
 
 #network {
-  background: #52e2cc;
+  background: #5294e2;
   margin-bottom: 8px;
   margin-left: 3px;
-  color: #3f424e;
+  color: #ffffff;
   margin-left: 0px;
   margin-right: 0px;
   padding: 1px 14px 0 6px;
@@ -149,14 +149,14 @@ window#waybar {
 }
 
 #idle_inhibitor.activated {
-  color: #52e27a;
+  color: #5294e2;
 }
 
 #battery {
-  background: #cb52e2;
+  background: #5294e2;
   margin-bottom: 8px;
   margin-left: 3px;
-  color: #3f424e;
+  color: #ffffff;
   margin-left: 0px;
   margin-right: 3px;
   padding: 1px 8px 0 6px;

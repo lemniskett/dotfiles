@@ -7,9 +7,9 @@ border-radius=2
 default-timeout=5000
 anchor=bottom-right
 layer=overlay
-background-color=#ECEFF4
-border-color=#CCCFD4
-text-color=#282a33
+background-color=#ffffff
+border-color=#dddddd
+text-color=#32343d
 
 [urgency=high]
 ignore-timeout=1

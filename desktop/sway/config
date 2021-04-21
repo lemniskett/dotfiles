@@ -292,7 +292,7 @@ for_window [app_id="chromium"] floating enable
 #assign [app_id="logs"] workspace 9
 #exec kitty -1 --class logs -e tail -f ~/.swaylog
 #exec kitty -1 --class logs -e tail -f ~/.swayerrlog
-client.focused              #d8dee9 #d8dee9 #333333 #d8dee9 #d8dee9
+client.focused              #f9f9f9 #f9f9f9 #32343d #f9f9f9 #f9f9f9
 client.unfocused            #575b61 #575b61 #d8dee9 #575b61 #575b61
 client.focused_inactive     #575b61 #575b61 #d8dee9 #575b61 #575b61
 
