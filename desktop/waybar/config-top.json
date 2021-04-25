@@ -12,7 +12,7 @@
         "exec": "$HOME/.config/waybar/scripts/ping.sh",
         "interval": 3,
         "tooltip": false,
-        "format": "{} 龍"
+        "format": "{} ms 龍"
     },
     "idle_inhibitor": {
         "format": "{icon}",
@@ -77,6 +77,6 @@
     },
     "custom/launcher": {
         "on-click": "~/.config/sway/scripts/launcher.sh",
-        "format": "異 Launcher",
+        "format": "異 Launcher"
     }
 }
