@@ -13,6 +13,8 @@ button {
     padding-left: 10px;
     padding-right: 10px;
     margin: 5px;
+    border-radius: 16px;
+    outline: none;
 }
 
 button:focus {
