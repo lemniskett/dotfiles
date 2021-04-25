@@ -1,0 +1,24 @@
+{
+    "layer": "top",
+    "position": "left",
+    "width": 56,
+    "modules-center": ["sway/workspaces"],
+    "sway/mode": {
+        "tooltip": false
+    },
+    "sway/workspaces": {
+        "all-outputs": true,
+        "persistent_workspaces": {
+        "I": [],
+        "II": [],
+        "III": [],
+        "IV": [],
+        "V": [],
+        "VI": [],
+        "VII": [],
+        "VIII": [],
+        "IX": [],
+        "X":[]
+        }
+    }
+}

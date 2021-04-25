@@ -1,35 +1,18 @@
 {
     "layer": "top",
-    "position": "bottom",
+    "position": "top",
     "height": 30,
-    "modules-left": ["clock"],
-    "modules-center": ["sway/workspaces"],
+    "modules-left": ["custom/launcher"],
+    "modules-center": ["clock"],
     "modules-right": ["tray", "idle_inhibitor", "cpu", "custom/ping", "network", "pulseaudio", "battery", "custom/powermenu"],
-    "sway/window": {
-        "max-length": 50
-    },
     "sway/mode": {
         "tooltip": false
-    },
-    "sway/workspaces": {
-        "all-outputs": true,
-        "persistent_workspaces": {
-        "1": [],
-        "2": [],
-        "3": [],
-        "4": [],
-        "5": [],
-        "6": [],
-        "7": [],
-        "8": [],
-        "9": []
-        }
     },
     "custom/ping": {
         "exec": "$HOME/.config/waybar/scripts/ping.sh",
         "interval": 3,
         "tooltip": false,
-        "format": "{} ms 龍"
+        "format": "{} 龍"
     },
     "idle_inhibitor": {
         "format": "{icon}",
@@ -44,11 +27,6 @@
         "interval": "1",
         "tooltip": false
     },
-    "custom/kernel": {
-        "exec": "uname -r",
-        "interval": "once",
-        "tooltip": false
-    },
     "tray": {
         "spacing": 5,
         "icon-size": 14,
@@ -56,36 +34,25 @@
     },
     "battery": {
         "states": {
-            // "good": 95,
             "warning": 20,
             "critical": 10
         },
         "format": "{capacity}% ",
         "format-charging": "{capacity}% ",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        //"format-icons": [" ", " ", " ", " ", " ", " ", " ", " "],
         "tooltip": false,
-	"on-click": "footclient htop"
+	    "on-click": "footclient htop"
     },
     "custom/powermenu": {
-        "on-click": "nwgbar -b 32343dff",
+        "on-click": "~/.config/sway/scripts/powermenu.sh",
         "format": "⏻",
         "tooltip": false
     },
-    "custom/assistant": {
-        "exec": "assistant",
-	"interval": 20,
-    "format": "  {}",
-	"tooltip": false
-    },
     "clock": {
-        "format": "  {:%a, %d %b %H:%M}",
+        "format": "{:%a, %d %b %H:%M}",
         "tooltip": false,
-	"on-click": "footclient calcurse"
+	    "on-click": "footclient calcurse"
     },
     "pulseaudio": {
-        //"scroll-step": 1,
         "format": "{volume}% {icon}",
         "format-bluetooth": "{volume}% {icon}",
         "format-muted": "",
@@ -96,7 +63,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", ""]
+            "default": [""]
         },
         "tooltip": false,
         "on-click": "pavucontrol"
@@ -106,6 +73,10 @@
         "format-ethernet": "Wired ",
         "format-disconnected": " ⚠",
         "tooltip": false,
-	"on-click": "footclient nmtui"
+	    "on-click": "footclient nmtui"
+    },
+    "custom/launcher": {
+        "on-click": "~/.config/sway/scripts/launcher.sh",
+        "format": "異 Launcher",
     }
 }
