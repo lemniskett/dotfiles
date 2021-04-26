@@ -5,30 +5,31 @@
 }
 
 window#waybar {
-    color: #f9f9f9;
-    background-color: #32343d;
+    color: #eceff4;
+    background-color: #2e3440;
 }
 
 #workspaces {
-    background-color: #4f525e;
-    margin: 4px;
-    border-radius: 8px;
+    background-color: #414755;
+    margin: 0 4px 4px 4px;
+    border-radius: 12px;
 }
 
 #workspaces button, #workspaces button.focused, #workspaces button.persistent {
     border: none;
-    border-radius: 8px;
-    padding: 14px 8px;
-    color: #f9f9f9;
+    border-radius: 12px;
+    padding: 12px 0px;
+    color: #eceff4 ;
 }
 
 #workspaces button {
     background-color: transparent;
-    color: #5294e2;
+    color: #81a1c1;
 }
 
 #workspaces button.focused {
-    background-color: #5294e2;
+    color: #2e3440;
+    background-color: #81a1c1;
 }
 
 #workspaces button.persistent {

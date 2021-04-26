@@ -297,10 +297,10 @@ for_window [app_id="chromium"] floating enable
 #assign [app_id="logs"] workspace 9
 #exec kitty -1 --class logs -e tail -f ~/.swaylog
 #exec kitty -1 --class logs -e tail -f ~/.swayerrlog
-client.focused              #f9f9f9 #f9f9f9 #32343d #f9f9f9 #f9f9f9
-client.unfocused            #575b61 #575b61 #f9f9f9 #575b61 #575b61
-client.focused_inactive     #575b61 #575b61 #f9f9f9 #575b61 #575b61
-client.urgent               #e25252 #e25252 #f9f9f9 #e25252 #e25252
+client.focused              #eceff4 #eceff4 #2e3440 #eceff4 #eceff4
+client.unfocused            #616e88 #616e88 #2e3440 #616e88 #616e88
+client.focused_inactive     #616e88 #616e88 #2e3440 #616e88 #616e88
+client.urgent               #bf616a #bf616a #2e3440 #bf616a #bf616a
 
 include /etc/sway/config.d/*
 exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK

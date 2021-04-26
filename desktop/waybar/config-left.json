@@ -2,7 +2,7 @@
     "layer": "top",
     "position": "left",
     "width": 56,
-    "modules-center": ["sway/workspaces"],
+    "modules-left": ["sway/workspaces"],
     "sway/mode": {
         "tooltip": false
     },

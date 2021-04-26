@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-nwgbar -b 32343dff
+nwgbar -b 2e3440ff

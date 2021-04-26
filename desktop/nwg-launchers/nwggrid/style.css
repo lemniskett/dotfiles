@@ -1,28 +1,30 @@
-button, label, image {
-    background: none;
-    border-style: none;
-    box-shadow: none;
-    color: #f9f9f9;
+image {
+    color: #eceff4;
 }
 
 button {
+    background: none;
+    border-style: none;
+    box-shadow: none; 
     padding: 5px;
     margin: 5px;
     border-radius: 16px;
     outline: none;
+    color: #eceff4;
 }
 
 button:focus {
-    background-color: #5294e2;
+    color: #2e3440;
+    background-color: #81a1c1;
 }
 
 #searchbox {
     background-color: #3f424e;
     border: none;
     border-radius: 20px;
-    color: #f9f9f9;
+    color: #eceff4;
     margin-top: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 #separator {
@@ -30,9 +32,10 @@ button:focus {
     margin-left: 500px;
     margin-right: 500px;
     margin-top: 10px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 #description {
-    margin-bottom: 60px
+    margin-bottom: 20px;
+    color: #eceff4;
 }

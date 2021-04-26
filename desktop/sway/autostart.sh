@@ -7,8 +7,9 @@ foot --server &
 mako &
 ~/.config/sway/scripts/battery_notify.sh &
 waybar -c ~/.config/waybar/config-left.json -s ~/.config/waybar/style-left.css &
-waybar -c ~/.config/waybar/config-top.json -s ~/.config/waybar/style-top.css &
 telegram-desktop -startintray &
-sleep 60
+sleep 1
+waybar -c ~/.config/waybar/config-top.json -s ~/.config/waybar/style-top.css &
+sleep 45
 megasync &
 
