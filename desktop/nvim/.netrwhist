@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/data/home/.icons/Papirus-nord'
+let g:netrw_dirhist_6='/data/home/.icons'
+let g:netrw_dirhist_5='/data/home/.config/nvim'
+let g:netrw_dirhist_4='/data/home/.config/chromium'
+let g:netrw_dirhist_3='/data/home/.config/sway'
+let g:netrw_dirhist_2='/data/home/.config'
+let g:netrw_dirhist_1='/data/home/.config/autostart'

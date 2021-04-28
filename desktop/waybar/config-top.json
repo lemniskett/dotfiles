@@ -2,11 +2,12 @@
     "layer": "top",
     "position": "top",
     "height": 30,
-    "modules-left": ["custom/launcher"],
+    "modules-left": ["custom/launcher", "sway/window"],
     "modules-center": ["clock"],
     "modules-right": ["tray", "idle_inhibitor", "cpu", "custom/ping", "network", "pulseaudio", "battery", "custom/powermenu"],
-    "sway/mode": {
-        "tooltip": false
+    "sway/window": {
+        "format": "{}",
+        "max-length": 50
     },
     "custom/ping": {
         "exec": "$HOME/.config/waybar/scripts/ping.sh",

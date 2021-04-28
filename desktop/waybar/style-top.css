@@ -9,6 +9,12 @@ window#waybar {
     background-color: #2e3440;
 }
 
+#window {
+    color: #eceff4;
+    padding: 2px 2px 2px 6px;
+    margin: 2px;
+}
+
 #custom-powermenu {
     color: #2e3440;
     background-color: #bf616a;
