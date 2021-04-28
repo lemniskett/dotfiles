@@ -1,7 +1,7 @@
 # Based on Bridge by ScionicSpectre and Adwaita by GNOME
 # vim:set ts=2 sw=2 sts=2 ai et:
 #
-# This is the GTK 2 version of materia-nord-light. It's whole purpose is to look as the
+# This is the GTK 2 version of oomox-shiki-noble-materia. It's whole purpose is to look as the
 # GTK 3 version as much as possible until GTK 2 dies completely.
 #
 # Note: comments for explaining styles are on the bottom of each file beside the
@@ -12,22 +12,22 @@
 # order to not mess up the dark theme.
 
 # Text/base
-gtk-color-scheme = "base_color:#e2e9f4"
+gtk-color-scheme = "base_color:#d8dee9"
 gtk-color-scheme = "text_color:#3b4252"
 # Foreground/background
 gtk-color-scheme = "bg_color:#d8dee9"
 gtk-color-scheme = "fg_color:#3b4252"
 # Selected foreground/background
 gtk-color-scheme = "selected_bg_color:#81a1c1"
-gtk-color-scheme = "selected_fg_color:#e2e9f4"
+gtk-color-scheme = "selected_fg_color:#d8dee9"
 # Titlebar foreground/background
 gtk-color-scheme = "titlebar_bg_color:#2e3440"
-gtk-color-scheme = "titlebar_fg_color:#e2e9f4"
+gtk-color-scheme = "titlebar_fg_color:#d8dee9"
 # Menus
-gtk-color-scheme = "menu_color:#e2e9f4"
+gtk-color-scheme = "menu_color:#d8dee9"
 # Tooltips foreground/background
 gtk-color-scheme = "tooltip_bg_color:#616161"
-gtk-color-scheme = "tooltip_fg_color:#e2e9f4"
+gtk-color-scheme = "tooltip_fg_color:#d8dee9"
 # Links
 gtk-color-scheme = "link_color:#81a1c1"
 gtk-color-scheme = "visited_link_color:#9c27b0"

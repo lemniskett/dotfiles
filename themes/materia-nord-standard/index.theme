@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=materia-nord-light-compact
+Name=oomox-shiki-noble-materia-compact
 Comment=A Material Design theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=materia-nord-light-compact
-MetacityTheme=materia-nord-light-compact
+GtkTheme=oomox-shiki-noble-materia-compact
+MetacityTheme=oomox-shiki-noble-materia-compact
 IconTheme=Adwaita
 CursorTheme=Adwaita
 CursorSize=24

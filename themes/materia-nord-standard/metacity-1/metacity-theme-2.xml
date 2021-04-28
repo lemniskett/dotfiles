@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-  <name>materia-nord-light</name>
+  <name>oomox-shiki-noble-materia</name>
   <author>nana-4</author>
   <copyright>GPL</copyright>
   <date>2020</date>
-  <description>materia-nord-light Metacity theme</description>
+  <description>oomox-shiki-noble-materia Metacity theme</description>
 </info>
 
 <!-- meaningful constants -->
 
 <constant name="C_titlebar_focused" value="#2e3440"/>
 <constant name="C_titlebar_unfocused" value="#1e2430"/>
-<constant name="C_highlight_focused" value="blend/#2e3440/#e2e9f4/0.1"/>
-<constant name="C_highlight_unfocused" value="blend/#1e2430/#e2e9f4/0.1"/>
-<constant name="C_title_focused" value="blend/#2e3440/#e2e9f4/1"/>
-<constant name="C_title_unfocused" value="blend/#1e2430/#e2e9f4/0.7"/>
+<constant name="C_highlight_focused" value="blend/#2e3440/#d8dee9/0.1"/>
+<constant name="C_highlight_unfocused" value="blend/#1e2430/#d8dee9/0.1"/>
+<constant name="C_title_focused" value="blend/#2e3440/#d8dee9/1"/>
+<constant name="C_title_unfocused" value="blend/#1e2430/#d8dee9/0.7"/>
 
 <!-- geometries -->
 

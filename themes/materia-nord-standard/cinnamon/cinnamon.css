@@ -1,6 +1,6 @@
 .notification-button, .modal-dialog-button {
   color: #3b4252;
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border-color: transparent;
   box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
   text-shadow: none;
@@ -22,7 +22,7 @@
 
 .notification-button:hover, .modal-dialog-button:hover, .notification-button:checked, .modal-dialog-button:checked {
   color: #3b4252;
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border-color: transparent;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
   text-shadow: none;
@@ -31,7 +31,7 @@
 
 .notification-button:active, .modal-dialog-button:active {
   color: #3b4252;
-  background-color: #bac1cd;
+  background-color: #b2b9c5;
   border-color: transparent;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
   text-shadow: none;
@@ -50,7 +50,7 @@
 
 .notification-icon-button, .keyboard-key, .sound-player StButton {
   color: #3b4252;
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border-color: transparent;
   box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
   text-shadow: none;
@@ -71,7 +71,7 @@
 
 .notification-icon-button:hover, .keyboard-key:hover, .sound-player StButton:hover, .notification-icon-button:checked, .keyboard-key:checked, .sound-player StButton:checked {
   color: #3b4252;
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border-color: transparent;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
   text-shadow: none;
@@ -80,7 +80,7 @@
 
 .notification-icon-button:active, .keyboard-key:active, .sound-player StButton:active {
   color: #3b4252;
-  background-color: #bac1cd;
+  background-color: #b2b9c5;
   border-color: transparent;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
   text-shadow: none;
@@ -159,7 +159,7 @@
 }
 
 .menu, .popup-combo-menu {
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border-radius: 7px;
   color: #3b4252;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
@@ -220,7 +220,7 @@
 
 .overview-empty-placeholder, .info-osd, .workspace-osd, #LookingGlassDialog, .switcher-list, .modal-dialog, .osd-window {
   color: #3b4252;
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border: none;
   border-radius: 7px;
   padding: 12px;
@@ -291,7 +291,7 @@ StScrollView StScrollBar {
   font-size: 9pt;
   font-weight: 400;
   padding: 6px 8px;
-  color: #e2e9f4;
+  color: #d8dee9;
   text-align: center;
   border-radius: 7px;
   background-color: rgba(46, 52, 64, 0.9);
@@ -722,7 +722,7 @@ StScrollView StScrollBar {
 
 .workspace-thumbnails-background {
   color: rgba(216, 222, 233, 0.7);
-  background-color: rgba(226, 233, 244, 0.08);
+  background-color: rgba(216, 222, 233, 0.08);
   border: none;
   padding: 8px;
   border-radius: 7px 0 0 7px;
@@ -944,7 +944,7 @@ StScrollView StScrollBar {
 }
 
 #notification {
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border-radius: 7px;
   border: 1px solid rgba(59, 66, 82, 0.12);
   padding: 8px;
@@ -1365,7 +1365,7 @@ StScrollView StScrollBar {
 }
 
 .window-list-preview {
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border-radius: 7px;
   padding: 10px 15px;
   spacing: 1em;
@@ -1520,7 +1520,7 @@ StScrollView StScrollBar {
 }
 
 .sound-player-overlay {
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   min-width: 300px;
   padding: 12px 16px;
   spacing: 0.5em;
@@ -1654,7 +1654,7 @@ StScrollView StScrollBar {
 .desklet-with-borders {
   font-size: 9pt;
   font-weight: 400;
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border-radius: 7px;
 }
 
@@ -1665,7 +1665,7 @@ StScrollView StScrollBar {
 .desklet-with-borders-and-header {
   font-size: 9pt;
   font-weight: 400;
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border-radius-bottomleft: 2px;
   border-radius-bottomright: 2px;
 }
@@ -1677,7 +1677,7 @@ StScrollView StScrollBar {
 .desklet-header {
   font-size: 15pt;
   font-weight: 500;
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border-radius-topleft: 2px;
   border-radius-topright: 2px;
 }
@@ -1687,7 +1687,7 @@ StScrollView StScrollBar {
 }
 
 .photoframe-box {
-  background-color: #e2e9f4;
+  background-color: #d8dee9;
   border-radius: 7px;
 }
 
@@ -1751,12 +1751,12 @@ StScrollView StScrollBar {
 .expo-workspaces-name-entry {
   font-size: 11.25pt;
   font-weight: 400;
-  background-color: rgba(226, 233, 244, 0.04);
-  color: #e2e9f4;
+  background-color: rgba(216, 222, 233, 0.04);
+  color: #d8dee9;
   padding: 0 8px;
-  selection-background-color: rgba(226, 233, 244, 0.3);
-  selected-color: #e2e9f4;
-  caret-color: #e2e9f4;
+  selection-background-color: rgba(216, 222, 233, 0.3);
+  selected-color: #d8dee9;
+  caret-color: #d8dee9;
   text-align: center;
   height: 32px;
   border-radius: 7px 7px 0 0;
@@ -1764,17 +1764,17 @@ StScrollView StScrollBar {
 }
 
 .expo-workspaces-name-entry#selected {
-  color: #e2e9f4;
-  background-color: rgba(226, 233, 244, 0.3);
+  color: #d8dee9;
+  background-color: rgba(216, 222, 233, 0.3);
 }
 
 .expo-workspaces-name-entry:focus {
-  color: #e2e9f4;
-  box-shadow: inset 0 -2px #e2e9f4;
+  color: #d8dee9;
+  box-shadow: inset 0 -2px #d8dee9;
 }
 
 .expo-workspaces-name-entry:hover {
-  background-color: rgba(226, 233, 244, 0.12);
+  background-color: rgba(216, 222, 233, 0.12);
 }
 
 .notification-applet-padding {
