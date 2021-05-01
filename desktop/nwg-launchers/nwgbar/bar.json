@@ -11,12 +11,12 @@
   },
   {
     "name": "Reboot",
-    "exec": "systemctl reboot",
+    "exec": "sudo reboot",
     "icon": "system-reboot"
   },
   {
     "name": "Shutdown",
-    "exec": "systemctl -i poweroff",
+    "exec": "sudo poweroff",
     "icon": "system-shutdown"
   }
 ]

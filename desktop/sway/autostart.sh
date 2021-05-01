@@ -11,5 +11,5 @@ telegram-desktop -startintray &
 sleep 1
 waybar -c ~/.config/waybar/config-top.json -s ~/.config/waybar/style-top.css &
 sleep 45
-megasync &
+env QT_QPA_PLATFORM="" megasync &
 

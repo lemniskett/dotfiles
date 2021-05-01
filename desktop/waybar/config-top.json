@@ -78,6 +78,7 @@
     },
     "custom/launcher": {
         "on-click": "~/.config/sway/scripts/launcher.sh",
-        "format": "異 Launcher"
+        "format": "異 Launcher",
+        "tooltip": false
     }
 }
