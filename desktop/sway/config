@@ -6,9 +6,6 @@
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
-exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
-exec hash dbus-update-activation-environment 2>/dev/null && \
-     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
 set $mod Mod4
 # Home row direction keys, like vim
 set $left h

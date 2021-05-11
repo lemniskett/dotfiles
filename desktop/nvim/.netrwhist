@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/data/home'
 let g:netrw_dirhist_7='/data/home/.icons/Papirus-nord'
 let g:netrw_dirhist_6='/data/home/.icons'
 let g:netrw_dirhist_5='/data/home/.config/nvim'
