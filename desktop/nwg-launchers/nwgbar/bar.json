@@ -11,12 +11,12 @@
   },
   {
     "name": "Reboot",
-    "exec": "sudo reboot",
+    "exec": "reboot",
     "icon": "system-reboot"
   },
   {
     "name": "Shutdown",
-    "exec": "sudo poweroff",
+    "exec": "poweroff",
     "icon": "system-shutdown"
   }
 ]
