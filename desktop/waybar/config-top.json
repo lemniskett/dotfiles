@@ -4,7 +4,7 @@
     "height": 30,
     "modules-left": ["custom/launcher", "sway/window"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "idle_inhibitor", "cpu", "custom/ping", "network", "pulseaudio", "battery", "custom/powermenu"],
+    "modules-right": ["tray", "idle_inhibitor", "disk", "memory", "cpu", "custom/ping", "network", "pulseaudio", "battery", "custom/powermenu"],
     "sway/window": {
         "format": "{}",
         "max-length": 50
@@ -14,6 +14,16 @@
         "interval": 3,
         "tooltip": false,
         "format": "{} ms 龍"
+    },
+    "memory": {
+        "interval": 1,
+        "format": "{}% ",
+        "tooltip": false
+    },
+    "disk": {
+        "interval": 60,
+        "format": "{percentage_used}% ",
+        "path": "/"
     },
     "idle_inhibitor": {
         "format": "{icon}",
