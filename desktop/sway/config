@@ -8,7 +8,7 @@ set $down j
 set $up k
 set $right l
 set $term "footclient"
-set $menu exec ~/.config/sway/scripts/launcher.sh
+set $menu exec footclient --app-id=launcher ~/.config/sway/scripts/launcher.sh
 font pango:Iosevka Nerd Font Bold 9
 set $laptop eDP-1
 bindswitch --reload --locked lid:on output $laptop disable
@@ -111,7 +111,7 @@ mode "Logout" {
 }
 
 bindsym $mod+r mode "Resize"
-bindsym Control+$mod+e exec ~/.config/sway/scripts/powermenu.sh
+bindsym Control+$mod+e exec footclient --app-id=launcher ~/.config/sway/scripts/powermenu.sh
 gaps inner 4
 gaps outer 4
 # border / titlebar
@@ -125,6 +125,7 @@ for_window [app_id="zenity"] floating enable
 for_window [class="Gimp"] floating enable
 for_window [app_id="qemu"] floating enable
 for_window [app_id="chromium"] floating enable
+for_window [app_id="^launcher$"] floating enable, fullscreen
 client.focused              #d8dee9 #d8dee9 #2e3440 #d8dee9 #d8dee9
 client.unfocused            #616e88 #616e88 #2e3440 #616e88 #616e88
 client.focused_inactive     #616e88 #616e88 #2e3440 #616e88 #616e88

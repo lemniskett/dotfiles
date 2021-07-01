@@ -54,7 +54,7 @@
 	    "on-click": "footclient htop"
     },
     "custom/powermenu": {
-        "on-click": "~/.config/sway/scripts/powermenu.sh",
+        "on-click": "footclient --app-id=launcher ~/.config/sway/scripts/powermenu.sh",
         "format": "⏻",
         "tooltip": false
     },
@@ -87,7 +87,7 @@
 	    "on-click": "footclient nmtui"
     },
     "custom/launcher": {
-        "on-click": "~/.config/sway/scripts/launcher.sh",
+        "on-click": "footclient --app-id=launcher ~/.config/sway/scripts/launcher.sh",
         "format": "異 Launcher",
         "tooltip": false
     }
