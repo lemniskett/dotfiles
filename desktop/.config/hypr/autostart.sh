@@ -10,3 +10,4 @@ s mako
 s lxpolkit
 s waybar@left
 s wob
+s nwg-drawer

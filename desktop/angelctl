@@ -47,25 +47,6 @@ brightness() {
     esac
 }
 
-ascend() {
-    should_logout=false
-
-    if [[ -f "$HYPRDOSE_ASCEND_INTERRUPT_TMPFILE" ]]; then
-    	read -r ascend_request < "$HYPRDOSE_ASCEND_INTERRUPT_TMPFILE"
-    	now="$(date +'%s')"
-    	if [[ $HYPRDOSE_ASCEND_INTERRUPT_THRESHOLD -ge $((now - ascend_request)) ]]; then
-    		should_logout=true
-    	fi
-    fi
-
-    if $should_logout; then
-    	hyprctl dispatch exit
-    else
-    	notify-send "Notice" "Press again to log out."
-    	date +'%s' > "$HYPRDOSE_ASCEND_INTERRUPT_TMPFILE"
-    fi
-}
-
 screenshot() {
     case "$1" in
         full)
@@ -87,10 +68,6 @@ screenshot() {
         exit 1
         ;;
     esac
-}
-
-launcher() {
-    nwg-drawer -nocats -close -c "$HYPRDOSE_LAUNCHER_COLUMN" -wm hyprland
 }
 
 new_workspace() {
@@ -128,12 +105,12 @@ keyboard() {
 }
 
 case $1 in
-    audio|brightness|ascend|screenshot|launcher|new_workspace|keyboard)
+    audio|brightness|screenshot|new_workspace|keyboard)
     # shellcheck disable=SC2068
     "$1" ${@:2}
     ;;
     *)
-    yap "$0: audio|brightness|ascend|screenshot|launcher|new_workspace|keyboard"
+    yap "$0: audio|brightness|screenshot|new_workspace|keyboard"
     exit 1
     ;;
 esac

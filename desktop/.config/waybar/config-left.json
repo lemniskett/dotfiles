@@ -31,10 +31,10 @@
         "format-charging": "{icon}󱐋",
         "format-icons": ["󰂃", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
         "tooltip": false,
-	    "on-click": "angelctl ascend"
+	    "on-click": "foot htop"
     },
     "custom/launcher": {
-        "on-click": "nwg-drawer -nocats -close -c 5",
+        "on-click": "nwg-drawer",
         "format": "󰐂",
         "tooltip": false
     },

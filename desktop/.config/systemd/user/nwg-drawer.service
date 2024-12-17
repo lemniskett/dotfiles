@@ -1,0 +1,12 @@
+[Unit]
+Description=nwg-drawer
+
+[Service]
+Type=simple
+StandardOutput=journal
+ExecStart=/usr/bin/nwg-drawer -r -nocats -close -c 5 -wm hyprland \
+    -pbexit "hyprctl dispatch exit" -pbreboot "systemctl reboot" \
+    -pbpoweroff "systemctl poweroff" -pbuseicontheme
+
+[Install]
+WantedBy=default.target
