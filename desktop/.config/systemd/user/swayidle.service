@@ -1,0 +1,12 @@
+[Unit]
+Description=swayidle
+
+[Service]
+Type=simple
+StandardOutput=journal
+ExecStart=/usr/bin/swayidle -w \
+    timeout 900 "hyprctl dispatch dpms off" \
+    resume "hyprctl dispatch dpms on"
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=mako
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/mako
+
+[Install]
+WantedBy=default.target

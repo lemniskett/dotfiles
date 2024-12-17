@@ -1,0 +1,9 @@
+[Unit]
+Description=waybar %i
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/waybar --config ./.config/waybar/config-%i.json --style ./.config/waybar/style-%i.css
+
+[Install]
+WantedBy=default.target

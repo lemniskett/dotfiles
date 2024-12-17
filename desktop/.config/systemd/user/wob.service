@@ -1,0 +1,9 @@
+[Unit]
+Description=wob
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash -c "rm -f ~/.wobsock; touch ~/.wobsock; tail -f ~/.wobsock | wob"
+
+[Install]
+WantedBy=default.target

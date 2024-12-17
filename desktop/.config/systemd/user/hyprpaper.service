@@ -1,0 +1,9 @@
+[Unit]
+Description=hyprpaper
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/hyprpaper
+
+[Install]
+WantedBy=default.target
