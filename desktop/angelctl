@@ -89,6 +89,14 @@ new_workspace() {
     hyprctl dispatch workspace $workspace_to_create
 }
 
+launcher() {
+    if ! pidof nwg-drawer; then
+        systemctl --user start nwg-drawer
+        sleep 0.1	
+    fi
+    pkill -USR1 nwg-drawer
+}
+
 keyboard() {
     wvkbd_pids="$(pidof wvkbd-mobintl)"
 
@@ -105,12 +113,12 @@ keyboard() {
 }
 
 case $1 in
-    audio|brightness|screenshot|new_workspace|keyboard)
+    audio|brightness|screenshot|launcher|new_workspace|keyboard)
     # shellcheck disable=SC2068
     "$1" ${@:2}
     ;;
     *)
-    yap "$0: audio|brightness|screenshot|new_workspace|keyboard"
+    yap "$0: audio|brightness|launcher|screenshot|new_workspace|keyboard"
     exit 1
     ;;
 esac

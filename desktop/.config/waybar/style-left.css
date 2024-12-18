@@ -64,6 +64,11 @@ window#waybar {
     padding: 8px 5px 8px 0px;
 }
 
+#custom-osk.enabled {
+    background-color: #52e6ff;
+    color: #1b142e;
+}
+
 #custom-addworkspace {
     padding: 8px 4px 8px 0px;
 }
@@ -90,7 +95,7 @@ window#waybar {
 }
 
 #network {
-    padding: 4px 8px 0 0;
+    padding: 2px 8px 0 0;
     color: #1b142e;
     background-color: #52e6ff;
     margin: 0 4px 0 4px;

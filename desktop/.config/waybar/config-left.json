@@ -5,14 +5,14 @@
     "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/addworkspace"],
     "modules-right": ["custom/killactive", "custom/screenshot", "custom/terminal", "custom/osk", "clock", "network", "battery"],
     "custom/addworkspace": {
-	    "on-click": "angelctl new_workspace",
-	    "format": "",
-	    "tooltip": false
+        "on-click": "angelctl new_workspace",
+        "format": "",
+        "tooltip": false
     },
     "clock": {
         "format": "{:%H\n<span>%M</span>}",
-        "tooltip": false,
-	    "on-click": "foot calcurse"
+        "on-click": "foot calcurse",
+        "tooltip": false
     },
     "network": {
         "format-wifi": "{icon}",
@@ -34,12 +34,12 @@
 	    "on-click": "foot htop"
     },
     "custom/launcher": {
-        "on-click": "nwg-drawer",
+        "on-click": "angelctl launcher",
         "format": "󰐂",
         "tooltip": false
     },
     "custom/osk": {
-        "on-click": "angelctl keyboard",
+        "on-click": "angelctl keyboard toggle",
         "format": "󰌌",
         "tooltip": false
     },
