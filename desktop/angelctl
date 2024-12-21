@@ -5,7 +5,7 @@ yap() {
 }
 
 # shellcheck disable=SC1091
-source "$HOME/.angelrc" || (yap "WHERE IS MY ANGELRC!!!"; exit 1)
+source "$HOME/.config/hyprdose/angelrc" || (yap "WHERE IS MY ANGELRC!!!"; exit 1)
 
 audio() {
     case "$1" in
@@ -102,6 +102,7 @@ keyboard() {
 
     if [[ "$wvkbd_pids" == "" ]]; then
         wvkbd-mobintl -L "$HYPRDOSE_KEYBOARD_HEIGHT" \
+            -l simple,special  --landscape-layers simple,special \
             --bg 1b142ec0 --fg 1b142ec0 --fg-sp 1b142ec0 \
             --press 52e6ff --press-sp d164f3 \
             --text f6f6f9 --text-sp f6f6f9 \
@@ -112,13 +113,33 @@ keyboard() {
     fi
 }
 
+workspace() {
+    current_workspace="$(hyprctl activeworkspace -j | jq .id)"
+
+    case "$1" in
+        up)
+        if [[ "$current_workspace" -lt "$HYPRDOSE_MAX_WORKSPACE" ]]; then
+            hyprctl dispatch workspace $((current_workspace + 1))
+        fi
+        ;;
+        down)
+        if [[ "$current_workspace" -gt 1 ]]; then
+            hyprctl dispatch workspace $((current_workspace - 1))
+        fi
+        ;;
+        *)
+        yap "workspace: up|down"
+        ;;
+    esac
+}
+
 case $1 in
-    audio|brightness|screenshot|launcher|new_workspace|keyboard)
+    audio|brightness|screenshot|launcher|new_workspace|keyboard|workspace)
     # shellcheck disable=SC2068
     "$1" ${@:2}
     ;;
     *)
-    yap "$0: audio|brightness|launcher|screenshot|new_workspace|keyboard"
+    yap "$0: audio|brightness|launcher|screenshot|new_workspace|keyboard|workspace"
     exit 1
     ;;
 esac

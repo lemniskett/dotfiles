@@ -19,5 +19,19 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 eval "$(starship init bash)"
 
-sleep 0.05
+# [ -z "$NVM_DIR" ] && export NVM_DIR="$HOME/.nvm"
+# source /usr/share/nvm/nvm.sh
+# source /usr/share/nvm/bash_completion
+# source /usr/share/nvm/install-nvm-exec
+
+sleep 0.03
 albafetch
+
+
+# pnpm
+# export PNPM_HOME="/home/raincandy/.local/share/pnpm"
+# case ":$PATH:" in
+#   *":$PNPM_HOME:"*) ;;
+#   *) export PATH="$PNPM_HOME:$PATH" ;;
+# esac
+# pnpm end
